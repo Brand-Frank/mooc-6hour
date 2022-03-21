@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "fe95f395f02ec5ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf358cdafb504247",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54dbd848e788bb29",
+    "type": "split",
+    "children": [
+      {
+        "id": "983fab39fc20d42e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eab004eca488220a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5e6a86552f0b18f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1311b88959c2827",
+    "type": "split",
+    "children": [
+      {
+        "id": "90b8aae4c647220f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dcccd1986576403",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "cf358cdafb504247",
+  "lastOpenFiles": [
+    "ch1-从C到C++/ch1-初识C  .pdf",
+    "ch1-从C到C++/大纲1.md",
+    "未命名.md"
+  ]
+}
