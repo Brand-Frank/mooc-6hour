@@ -10,6 +10,7 @@ int fun(int a, int b);
 
 int main(void){
     int a = 10, b = 2, c;
+    //cout是iostream库的std命名空间下的一个名为cout对象
     std::cout << "a*13 = " << a * 13 << std::endl;
 
     c = fun(a,b);
