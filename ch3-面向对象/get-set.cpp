@@ -2,7 +2,7 @@
  * @Author: codebug 
  * @Date: 2022-03-31 19:28:46 
  * @Last Modified by: codebug
- * @Last Modified time: 2022-03-31 20:25:02
+ * @Last Modified time: 2022-04-01 20:02:36
  */
 //getter()/setter()方法-为某些私有成员变量提供外部读/写方法
 /**
@@ -29,7 +29,7 @@ public:
     }
     ~Book() {}
 
-    string getName() const {  //type name() const{} - 常成员函数：不能修改类成员变量
+    string getName() const {  //type name() const{} - //Note:常成员函数：不能修改类成员变量
         return name;
     }
     int getCount() const {
