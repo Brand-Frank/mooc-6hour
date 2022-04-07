@@ -1,0 +1,401 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+main	6h-cpp-vs/pointer/pointer.cpp	/^int main(void) {$/;"	f
+swap	6h-cpp-vs/pointer/pointer.cpp	/^void swap(int* a, int* b) {$/;"	f
+main	6h-cpp-vs/函数默认参数/default-para.cpp	/^int main(void) {$/;"	f
+power	6h-cpp-vs/函数默认参数/default-para.cpp	/^int power(int n, int x) {$/;"	f
+TriangleException	6h-cpp-vs/异常处理/exception.cpp	/^class TriangleException : public exception {$/;"	c	file:
+a	6h-cpp-vs/异常处理/exception.cpp	/^    float a;$/;"	m	class:TriangleException	file:
+b	6h-cpp-vs/异常处理/exception.cpp	/^    float b;$/;"	m	class:TriangleException	file:
+c	6h-cpp-vs/异常处理/exception.cpp	/^    float c;$/;"	m	class:TriangleException	file:
+TriangleException	6h-cpp-vs/异常处理/exception.cpp	/^    TriangleException(float a, float b, float c) : a(a), b(b), c(c) {}$/;"	f	class:TriangleException
+get_triangle_area	6h-cpp-vs/异常处理/exception.cpp	/^float get_triangle_area(float a, float b, float c) throw(TriangleException) {$/;"	f
+main	6h-cpp-vs/异常处理/exception.cpp	/^int main(void) {$/;"	f
+A	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^class A {$/;"	c	file:
+pA	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    char* pA;$/;"	m	class:A	file:
+A	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    A() { pA = new char[100]; }$/;"	f	class:A
+func	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    virtual void func() { cout << "func in A\\n"; }$/;"	f	class:A
+~A	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    virtual ~A() { delete[] pA; }$/;"	f	class:A
+B	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^class B : public A {$/;"	c	file:
+pB	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    char* pB;$/;"	m	class:B	file:
+B	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    B() { pB = new char[100]; }$/;"	f	class:B
+func	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    void func() { cout << "func in B\\n"; }$/;"	f	class:B
+~B	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^    ~B() { delete[] pB; }$/;"	f	class:B
+main	6h-cpp-vs/虚析构函数/virtual-dtor.cpp	/^int main(void) {$/;"	f
+main	ch1-从C到C++/bool.cpp	/^int main(void){$/;"	f
+main	ch1-从C到C++/hello.cpp	/^int main(void){$/;"	f
+fun	ch1-从C到C++/hello.cpp	/^int fun(int a, int b){$/;"	f
+main	ch1-从C到C++/string.cpp	/^int main(void){$/;"	f
+main	ch1-从C到C++/string1.cpp	/^int main(void){$/;"	f
+main	ch1-从C到C++/tempCodeRunnerFile.cpp	/^int main(void){$/;"	f
+swap_p	ch2-函数/defaul-swap.cpp	/^void swap_p(int *p1, int *p2){$/;"	f
+swap	ch2-函数/defaul-swap.cpp	/^void swap(int& a, int& b){$/;"	f
+main	ch2-函数/defaul-swap.cpp	/^int main(void){$/;"	f
+main	ch2-函数/default-para.cpp	/^int main(void){$/;"	f
+power	ch2-函数/default-para.cpp	/^int power(int n, int x){$/;"	f
+func	ch2-函数/error_overload.cpp	/^int func(int a, int b){$/;"	f
+func	ch2-函数/error_overload.cpp	/^int func(int&a ,int &b){    \/\/引用传参$/;"	f
+func	ch2-函数/error_overload.cpp	/^int func(int a, int b, int c = 2){  \/\/带有默认参数$/;"	f
+func	ch2-函数/error_overload.cpp	/^string func(int a, int b){      \/\/返回值类型不同$/;"	f
+main	ch2-函数/error_overload.cpp	/^int main(void){$/;"	f
+main	ch2-函数/fun.cpp	/^int main(void){$/;"	f
+swap	ch2-函数/fun.cpp	/^void swap(int *a, int *b){$/;"	f
+getMax	ch2-函数/inline-func.cpp	/^inline int getMax(int a, int b, int c){$/;"	f
+main	ch2-函数/inline-func.cpp	/^int main(void){$/;"	f
+main	ch2-函数/overload.cpp	/^int main(void){$/;"	f
+add	ch2-函数/overload.cpp	/^int add(int a, int b){$/;"	f
+add	ch2-函数/overload.cpp	/^int add(int a, int b, int c){$/;"	f
+add	ch2-函数/overload.cpp	/^int add(int a, int b, int c, int d){$/;"	f
+add_str	ch2-函数/overload.cpp	/^string add_str(int a, int b){$/;"	f
+add_str	ch2-函数/overload.cpp	/^string add_str(int a, string s){$/;"	f
+add_str	ch2-函数/overload.cpp	/^string add_str(string s, int a){$/;"	f
+add_str	ch2-函数/overload.cpp	/^string add_str(string s1, string s2){$/;"	f
+main	ch2-函数/reference-para.cpp	/^int main(void){$/;"	f
+Circle	ch3-面向对象/class.cpp	/^class Circle{$/;"	c	file:
+radius	ch3-面向对象/class.cpp	/^    float radius;   \/\/��Ա����$/;"	m	class:Circle	file:
+Circle	ch3-面向对象/class.cpp	/^    Circle(float radius){   \/\/���캯��(������������һ��)$/;"	f	class:Circle
+getS	ch3-面向对象/class.cpp	/^    float getS(){   \/\/��Ա����1$/;"	f	class:Circle
+getC	ch3-面向对象/class.cpp	/^    float getC(){   \/\/��Ա����2$/;"	f	class:Circle
+Rectangle	ch3-面向对象/class.cpp	/^class Rectangle{$/;"	c	file:
+a	ch3-面向对象/class.cpp	/^    float a;$/;"	m	class:Rectangle	file:
+b	ch3-面向对象/class.cpp	/^    float b;$/;"	m	class:Rectangle	file:
+Rectangle	ch3-面向对象/class.cpp	/^    Rectangle(float a, float b){    \/\/���캯�����ڴ���$/;"	f	class:Rectangle
+getS	ch3-面向对象/class.cpp	/^    float getS(){   \/\/��Ա����1$/;"	f	class:Rectangle
+getC	ch3-面向对象/class.cpp	/^    float getC(){   \/\/��Ա����2$/;"	f	class:Rectangle
+main	ch3-面向对象/class.cpp	/^int main(void){$/;"	f
+Father	ch3-面向对象/con-inherit.cpp	/^class Father{$/;"	c	file:
+n	ch3-面向对象/con-inherit.cpp	/^    int n = 1;$/;"	m	class:Father	file:
+func	ch3-面向对象/con-inherit.cpp	/^    void func(){$/;"	f	class:Father
+Son	ch3-面向对象/con-inherit.cpp	/^class Son : public Father{$/;"	c	file:
+n	ch3-面向对象/con-inherit.cpp	/^    int n = 2;$/;"	m	class:Son	file:
+func	ch3-面向对象/con-inherit.cpp	/^    void func(){$/;"	f	class:Son
+set	ch3-面向对象/con-inherit.cpp	/^    void set(){     \/\/同时修改了父类和子类的成员$/;"	f	class:Son
+main	ch3-面向对象/con-inherit.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象/copy-constructor.cpp	/^class A{$/;"	c	file:
+n	ch3-面向对象/copy-constructor.cpp	/^    int n;$/;"	m	class:A	file:
+ptr	ch3-面向对象/copy-constructor.cpp	/^    char *ptr;$/;"	m	class:A	file:
+A	ch3-面向对象/copy-constructor.cpp	/^    A(int n){$/;"	f	class:A
+A	ch3-面向对象/copy-constructor.cpp	/^    A(A& other) {       \/\/A�Ŀ������캯��$/;"	f	class:A
+~A	ch3-面向对象/copy-constructor.cpp	/^    ~A(){$/;"	f	class:A
+main	ch3-面向对象/copy-constructor.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象/ctor-dtor-order.cpp	/^class A{$/;"	c	file:
+A	ch3-面向对象/ctor-dtor-order.cpp	/^    A() { cout << "����A" << endl; }$/;"	f	class:A
+~A	ch3-面向对象/ctor-dtor-order.cpp	/^    ~A() { cout << "����A" << endl; }$/;"	f	class:A
+B	ch3-面向对象/ctor-dtor-order.cpp	/^class B : public A {$/;"	c	file:
+B	ch3-面向对象/ctor-dtor-order.cpp	/^    B() { cout << "����B" << endl; }$/;"	f	class:B
+~B	ch3-面向对象/ctor-dtor-order.cpp	/^    ~B() { cout << "����B" << endl; }$/;"	f	class:B
+C	ch3-面向对象/ctor-dtor-order.cpp	/^class C : public B {$/;"	c	file:
+C	ch3-面向对象/ctor-dtor-order.cpp	/^    C() { cout << "����C" << endl; }$/;"	f	class:C
+~C	ch3-面向对象/ctor-dtor-order.cpp	/^    ~C() { cout << "����C" << endl; }$/;"	f	class:C
+main	ch3-面向对象/ctor-dtor-order.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象/ctor-dtor.cpp	/^class A{$/;"	c	file:
+n	ch3-面向对象/ctor-dtor.cpp	/^    int n;$/;"	m	class:A	file:
+data	ch3-面向对象/ctor-dtor.cpp	/^    char* data = nullptr;$/;"	m	class:A	file:
+A	ch3-面向对象/ctor-dtor.cpp	/^    A(int n){   \/\/�вι��캯��$/;"	f	class:A
+~A	ch3-面向对象/ctor-dtor.cpp	/^    ~A(){       \/\/��������$/;"	f	class:A
+main	ch3-面向对象/ctor-dtor.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象/ctor-param-list.cpp	/^class A{$/;"	c	file:
+n	ch3-面向对象/ctor-param-list.cpp	/^    int n;$/;"	m	class:A	file:
+A	ch3-面向对象/ctor-param-list.cpp	/^    A(int n) { this->n = n; }$/;"	f	class:A
+B	ch3-面向对象/ctor-param-list.cpp	/^class B{$/;"	c	file:
+a	ch3-面向对象/ctor-param-list.cpp	/^    A a;$/;"	m	class:B	file:
+B	ch3-面向对象/ctor-param-list.cpp	/^    B(int n):a(n) { }   \/\/给构造函数传参(在B()声明之后，定义\/实现之前，先把a的成员函数构造好)$/;"	f	class:B
+A	ch3-面向对象/ctor-param-list1.cpp	/^class A{$/;"	c	file:
+n	ch3-面向对象/ctor-param-list1.cpp	/^    int n;$/;"	m	class:A	file:
+A	ch3-面向对象/ctor-param-list1.cpp	/^    A(int n) { this->n = n; }$/;"	f	class:A
+B	ch3-面向对象/ctor-param-list1.cpp	/^class B{$/;"	c	file:
+n1	ch3-面向对象/ctor-param-list1.cpp	/^    int n1;$/;"	m	class:B	file:
+n2	ch3-面向对象/ctor-param-list1.cpp	/^    int n2;$/;"	m	class:B	file:
+a	ch3-面向对象/ctor-param-list1.cpp	/^    A a;$/;"	m	class:B	file:
+B	ch3-面向对象/ctor-param-list1.cpp	/^    B(int n1, int n2, int n) : n1(n1), n2(n2), a(n) { }   \/\/给构造函数传参(在B()声明之后，定义\/实现之前，先把a的成员函数构造好)$/;"	f	class:B
+B	ch3-面向对象/ctor-param-list1.cpp	/^    B(int n1, int n2, int n) : a(n){$/;"	f	class:B
+A	ch3-面向对象/default-copy-constructor.cpp	/^class A{$/;"	c	file:
+n	ch3-面向对象/default-copy-constructor.cpp	/^    int n;$/;"	m	class:A	file:
+ptr	ch3-面向对象/default-copy-constructor.cpp	/^    char *ptr;$/;"	m	class:A	file:
+A	ch3-面向对象/default-copy-constructor.cpp	/^    A(int n){$/;"	f	class:A
+~A	ch3-面向对象/default-copy-constructor.cpp	/^    ~A(){$/;"	f	class:A
+main	ch3-面向对象/default-copy-constructor.cpp	/^int main(void){$/;"	f
+Book	ch3-面向对象/encapsulate.cpp	/^class Book{$/;"	c	file:
+name	ch3-面向对象/encapsulate.cpp	/^    string name;$/;"	m	class:Book	file:
+count	ch3-面向对象/encapsulate.cpp	/^    int count;$/;"	m	class:Book	file:
+Book	ch3-面向对象/encapsulate.cpp	/^    Book(string name, int count){$/;"	f	class:Book
+~Book	ch3-面向对象/encapsulate.cpp	/^    ~Book() {}$/;"	f	class:Book
+getName	ch3-面向对象/encapsulate.cpp	/^    string getName() const {    \/\/const����Ա�����������޸����Ա����$/;"	f	class:Book
+getCount	ch3-面向对象/encapsulate.cpp	/^    int getCount() const {$/;"	f	class:Book
+setName	ch3-面向对象/encapsulate.cpp	/^    string setName(const string& name){$/;"	f	class:Book
+setCount	ch3-面向对象/encapsulate.cpp	/^    int setCount(const int& count){$/;"	f	class:Book
+main	ch3-面向对象/encapsulate.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象/error-inherit.cpp	/^class A{$/;"	c	file:
+pri_A	ch3-面向对象/error-inherit.cpp	/^    int pri_A;$/;"	m	class:A	file:
+pro_A	ch3-面向对象/error-inherit.cpp	/^    int pro_A;$/;"	m	class:A	file:
+pub_A	ch3-面向对象/error-inherit.cpp	/^    int pub_A;$/;"	m	class:A	file:
+A	ch3-面向对象/error-inherit.cpp	/^    A(){$/;"	f	class:A
+funcA	ch3-面向对象/error-inherit.cpp	/^    void funcA(){$/;"	f	class:A
+B	ch3-面向对象/error-inherit.cpp	/^class B : public A{     \/\/Note：B继承A的属性和方法-(公有继承)$/;"	c	file:
+pri_B	ch3-面向对象/error-inherit.cpp	/^    int pri_B;$/;"	m	class:B	file:
+pro_B	ch3-面向对象/error-inherit.cpp	/^    int pro_B;$/;"	m	class:B	file:
+pub_B	ch3-面向对象/error-inherit.cpp	/^    int pub_B;$/;"	m	class:B	file:
+B	ch3-面向对象/error-inherit.cpp	/^    B(){$/;"	f	class:B
+funcB	ch3-面向对象/error-inherit.cpp	/^    void funcB(){$/;"	f	class:B
+C	ch3-面向对象/error-inherit.cpp	/^class C : public B{     \/\/Note：C继承B的属性和方法-(公有继承)$/;"	c	file:
+pri_C	ch3-面向对象/error-inherit.cpp	/^    int pri_C;$/;"	m	class:C	file:
+pro_C	ch3-面向对象/error-inherit.cpp	/^    int pro_C;$/;"	m	class:C	file:
+pub_C	ch3-面向对象/error-inherit.cpp	/^    int pub_C;$/;"	m	class:C	file:
+C	ch3-面向对象/error-inherit.cpp	/^    C(){$/;"	f	class:C
+funcC	ch3-面向对象/error-inherit.cpp	/^    void funcC(){$/;"	f	class:C
+main	ch3-面向对象/error-inherit.cpp	/^int main(void){$/;"	f
+A1	ch3-面向对象/friend.cpp	/^class A1 {};$/;"	c	file:
+A2	ch3-面向对象/friend.cpp	/^class A2 {};$/;"	c	file:
+A3	ch3-面向对象/friend.cpp	/^class A3 {};$/;"	c	file:
+B	ch3-面向对象/friend.cpp	/^class B : public A1, private A2, protected A3 {};  \/\/一个子类可以继承自多个父类$/;"	c	file:
+A	ch3-面向对象/friend.cpp	/^class A {};$/;"	c	file:
+B1	ch3-面向对象/friend.cpp	/^class B1 : public A {};$/;"	c	file:
+B2	ch3-面向对象/friend.cpp	/^class B2 : public A {};$/;"	c	file:
+C	ch3-面向对象/friend.cpp	/^class C : public B1, public B2 {};$/;"	c	file:
+D	ch3-面向对象/friend.cpp	/^class D { $/;"	c	file:
+n	ch3-面向对象/friend.cpp	/^    int n;$/;"	m	class:D	file:
+D	ch3-面向对象/friend.cpp	/^    D(int n) :n(n) {} $/;"	f	class:D
+print_n	ch3-面向对象/friend.cpp	/^void print_n(D& a) {    \/\/不是类的成员函数$/;"	f
+Book	ch3-面向对象/get-set.cpp	/^class Book{$/;"	c	file:
+name	ch3-面向对象/get-set.cpp	/^    string name;$/;"	m	class:Book	file:
+count	ch3-面向对象/get-set.cpp	/^    int count;$/;"	m	class:Book	file:
+Book	ch3-面向对象/get-set.cpp	/^    Book(string name){$/;"	f	class:Book
+~Book	ch3-面向对象/get-set.cpp	/^    ~Book() {}$/;"	f	class:Book
+getName	ch3-面向对象/get-set.cpp	/^    string getName() const {  \/\/type name() const{} - \/\/Note:����Ա�����������޸����Ա����$/;"	f	class:Book
+getCount	ch3-面向对象/get-set.cpp	/^    int getCount() const {$/;"	f	class:Book
+setName	ch3-面向对象/get-set.cpp	/^    bool setName(const string& name){$/;"	f	class:Book
+setCount	ch3-面向对象/get-set.cpp	/^    bool setCount(int count){$/;"	f	class:Book
+add_count	ch3-面向对象/get-set.cpp	/^    void add_count(){$/;"	f	class:Book
+main	ch3-面向对象/get-set.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象/inherit.cpp	/^class A{$/;"	c	file:
+nA	ch3-面向对象/inherit.cpp	/^    int nA;$/;"	m	class:A	file:
+A	ch3-面向对象/inherit.cpp	/^    A(){$/;"	f	class:A
+funcA	ch3-面向对象/inherit.cpp	/^    void funcA(){$/;"	f	class:A
+B	ch3-面向对象/inherit.cpp	/^class B : public A{     \/\/Note：B继承A的属性和方法-(公有继承)$/;"	c	file:
+nB	ch3-面向对象/inherit.cpp	/^    int nB;$/;"	m	class:B	file:
+B	ch3-面向对象/inherit.cpp	/^    B(){$/;"	f	class:B
+funcB	ch3-面向对象/inherit.cpp	/^    void funcB(){$/;"	f	class:B
+C	ch3-面向对象/inherit.cpp	/^class C : public B{     \/\/Note：C继承B的属性和方法-(公有继承)$/;"	c	file:
+nC	ch3-面向对象/inherit.cpp	/^    int nC;$/;"	m	class:C	file:
+C	ch3-面向对象/inherit.cpp	/^    C(){$/;"	f	class:C
+funcC	ch3-面向对象/inherit.cpp	/^    void funcC(){$/;"	f	class:C
+main	ch3-面向对象/inherit.cpp	/^int main(void){$/;"	f
+main	ch3-面向对象/modular-programming/main.cpp	/^int main(void){$/;"	f
+Myclass	ch3-面向对象/modular-programming/myclass.cpp	/^Myclass::Myclass(int n){$/;"	f	class:Myclass
+get_n	ch3-面向对象/modular-programming/myclass.cpp	/^int Myclass::get_n(){$/;"	f	class:Myclass
+set_n	ch3-面向对象/modular-programming/myclass.cpp	/^void Myclass::set_n(int n){$/;"	f	class:Myclass
+_MYCLASS_H_	ch3-面向对象/modular-programming/myclass.h	/^#define _MYCLASS_H_$/;"	d
+Myclass	ch3-面向对象/modular-programming/myclass.h	/^class Myclass {$/;"	c
+n	ch3-面向对象/modular-programming/myclass.h	/^    int n;$/;"	m	class:Myclass
+A	ch3-面向对象/operator-overload.cpp	/^class A{$/;"	c	file:
+n	ch3-面向对象/operator-overload.cpp	/^    int n;$/;"	m	class:A	file:
+ptr	ch3-面向对象/operator-overload.cpp	/^    char *ptr;$/;"	m	class:A	file:
+A	ch3-面向对象/operator-overload.cpp	/^    A(int n){$/;"	f	class:A
+operator =	ch3-面向对象/operator-overload.cpp	/^    A& operator = (A& other) {       \/\/A�Ŀ������캯��$/;"	f	class:A
+~A	ch3-面向对象/operator-overload.cpp	/^    ~A(){$/;"	f	class:A
+main	ch3-面向对象/operator-overload.cpp	/^int main(void){$/;"	f
+Vector	ch3-面向对象/operator-overload2.cpp	/^class Vector { $/;"	c	file:
+a	ch3-面向对象/operator-overload2.cpp	/^    int a;$/;"	m	class:Vector	file:
+b	ch3-面向对象/operator-overload2.cpp	/^    int b;$/;"	m	class:Vector	file:
+Vector	ch3-面向对象/operator-overload2.cpp	/^    Vector(int a, int b) { $/;"	f	class:Vector
+operator +	ch3-面向对象/operator-overload2.cpp	/^    Vector operator + (Vector& other){  \/\/运算符重载，等价于 add_two_vec()函数$/;"	f	class:Vector
+add_two_vec	ch3-面向对象/operator-overload2.cpp	/^Vector add_two_vec(Vector& v1, Vector v2){$/;"	f
+main	ch3-面向对象/operator-overload2.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象/operator-overload3.cpp	/^class A{$/;"	c	file:
+n	ch3-面向对象/operator-overload3.cpp	/^    int n;$/;"	m	class:A	file:
+ptr	ch3-面向对象/operator-overload3.cpp	/^    char *ptr;$/;"	m	class:A	file:
+A	ch3-面向对象/operator-overload3.cpp	/^    A(int n){$/;"	f	class:A
+operator =	ch3-面向对象/operator-overload3.cpp	/^    A& operator = (A& other) {       \/\/A�Ŀ������캯��$/;"	f	class:A
+~A	ch3-面向对象/operator-overload3.cpp	/^    ~A(){$/;"	f	class:A
+main	ch3-面向对象/operator-overload3.cpp	/^int main(void){$/;"	f
+Human	ch3-面向对象/polymorphism.cpp	/^class Human{$/;"	c	file:
+say	ch3-面向对象/polymorphism.cpp	/^    virtual void say(){     \/\/太宽泛了，需要子类重写 (virtual)$/;"	f	class:Human
+Student	ch3-面向对象/polymorphism.cpp	/^class Student : public Human{$/;"	c	file:
+say	ch3-面向对象/polymorphism.cpp	/^    virtual void say(){     \/\/有点宽泛，需要子类重写 (virtual)$/;"	f	class:Student
+College	ch3-面向对象/polymorphism.cpp	/^class College : public Student{$/;"	c	file:
+say	ch3-面向对象/polymorphism.cpp	/^    void say(){$/;"	f	class:College
+main	ch3-面向对象/polymorphism.cpp	/^int main(void){$/;"	f
+Human	ch3-面向对象/polymorphism2.cpp	/^class Human{$/;"	c	file:
+Man	ch3-面向对象/polymorphism2.cpp	/^class Man : public Human{$/;"	c	file:
+toilet	ch3-面向对象/polymorphism2.cpp	/^    void toilet(){$/;"	f	class:Man
+Woman	ch3-面向对象/polymorphism2.cpp	/^class Woman : public Human{$/;"	c	file:
+toilet	ch3-面向对象/polymorphism2.cpp	/^    void toilet(){$/;"	f	class:Woman
+Non	ch3-面向对象/polymorphism2.cpp	/^class Non : public Human{$/;"	c	file:
+toilet	ch3-面向对象/polymorphism2.cpp	/^    void toilet(){$/;"	f	class:Non
+func	ch3-面向对象/polymorphism2.cpp	/^void func(Human *human){$/;"	f
+main	ch3-面向对象/polymorphism2.cpp	/^int main(void){$/;"	f
+Shape	ch3-面向对象/polymorphism3.cpp	/^class Shape{$/;"	c	file:
+Circle	ch3-面向对象/polymorphism3.cpp	/^class Circle : public Shape {$/;"	c	file:
+radius	ch3-面向对象/polymorphism3.cpp	/^    float radius;$/;"	m	class:Circle	file:
+Circle	ch3-面向对象/polymorphism3.cpp	/^    Circle(float radius){$/;"	f	class:Circle
+getS	ch3-面向对象/polymorphism3.cpp	/^    float getS() { return 3.14*radius*radius; }$/;"	f	class:Circle
+getC	ch3-面向对象/polymorphism3.cpp	/^    float getC() { return 2*3.14*radius; }$/;"	f	class:Circle
+Rectangle	ch3-面向对象/polymorphism3.cpp	/^class Rectangle : public Shape {$/;"	c	file:
+a	ch3-面向对象/polymorphism3.cpp	/^    float a;$/;"	m	class:Rectangle	file:
+b	ch3-面向对象/polymorphism3.cpp	/^    float b;$/;"	m	class:Rectangle	file:
+Rectangle	ch3-面向对象/polymorphism3.cpp	/^    Rectangle(float a, float b){    \/\/构造函数用于传参$/;"	f	class:Rectangle
+getS	ch3-面向对象/polymorphism3.cpp	/^    float getS(){   \/\/成员函数1$/;"	f	class:Rectangle
+getC	ch3-面向对象/polymorphism3.cpp	/^    float getC(){   \/\/成员函数2$/;"	f	class:Rectangle
+Display	ch3-面向对象/polymorphism3.cpp	/^void Display(Shape* ptr){      \/\/父类指针$/;"	f
+main	ch3-面向对象/polymorphism3.cpp	/^int main(void){$/;"	f
+main	ch3-面向对象/Project/main.cpp	/^int main(void){$/;"	f
+Student	ch3-面向对象/Project/student.cpp	/^Student::Student(int id, int age, bool is_male, string name){$/;"	f	class:Student
+get_id	ch3-面向对象/Project/student.cpp	/^int Student::get_id() const {   \/\/Note:Student:: 为类名限定符$/;"	f	class:Student
+get_age	ch3-面向对象/Project/student.cpp	/^int Student::get_age() const {$/;"	f	class:Student
+get_ismale	ch3-面向对象/Project/student.cpp	/^bool Student::get_ismale() const {$/;"	f	class:Student
+get_name	ch3-面向对象/Project/student.cpp	/^string Student::get_name() const{$/;"	f	class:Student
+set_id	ch3-面向对象/Project/student.cpp	/^void Student::set_id(const int id){$/;"	f	class:Student
+set_age	ch3-面向对象/Project/student.cpp	/^void Student::set_age(const int age){$/;"	f	class:Student
+set_ismale	ch3-面向对象/Project/student.cpp	/^void Student::set_ismale(const bool is_male){$/;"	f	class:Student
+set_name	ch3-面向对象/Project/student.cpp	/^void Student::set_name(const string& name){$/;"	f	class:Student
+grow_up	ch3-面向对象/Project/student.cpp	/^void Student::grow_up(){$/;"	f	class:Student
+introduce	ch3-面向对象/Project/student.cpp	/^void Student::introduce(){$/;"	f	class:Student
+_STUDENT_H_	ch3-面向对象/Project/student.h	/^#define _STUDENT_H_$/;"	d
+MAN	ch3-面向对象/Project/student.h	/^#define MAN /;"	d
+WOMAN	ch3-面向对象/Project/student.h	/^#define WOMAN /;"	d
+Student	ch3-面向对象/Project/student.h	/^class Student{$/;"	c
+id	ch3-面向对象/Project/student.h	/^    int id;         \/\/学号$/;"	m	class:Student
+age	ch3-面向对象/Project/student.h	/^    int age;        \/\/年龄$/;"	m	class:Student
+is_male	ch3-面向对象/Project/student.h	/^    bool is_male;   \/\/性别$/;"	m	class:Student
+name	ch3-面向对象/Project/student.h	/^    string name;    \/\/姓名$/;"	m	class:Student
+main	ch3-面向对象/static/main.cpp	/^int main(void){$/;"	f
+cnt	ch3-面向对象/static/myclass.cpp	/^int Myclass::cnt = 0;   \/\/TODO：静态成员变量必须在类声明*外部*单独初始化！$/;"	m	class:Myclass	file:
+Myclass	ch3-面向对象/static/myclass.cpp	/^Myclass::Myclass(){$/;"	f	class:Myclass
+dispaly	ch3-面向对象/static/myclass.cpp	/^void Myclass::dispaly(){$/;"	f	class:Myclass
+~Myclass	ch3-面向对象/static/myclass.cpp	/^Myclass::~Myclass(){$/;"	f	class:Myclass
+_MYCLASS_H_	ch3-面向对象/static/myclass.h	/^#define _MYCLASS_H_$/;"	d
+Myclass	ch3-面向对象/static/myclass.h	/^class Myclass{$/;"	c
+cnt	ch3-面向对象/static/myclass.h	/^    static int cnt;$/;"	m	class:Myclass
+A	ch3-面向对象/static.cpp	/^class A{$/;"	c	file:
+cnt	ch3-面向对象/static.cpp	/^    static int cnt;$/;"	m	class:A	file:
+A	ch3-面向对象/static.cpp	/^    A() { cnt++; }$/;"	f	class:A
+~A	ch3-面向对象/static.cpp	/^    ~A() { cnt--; }$/;"	f	class:A
+cnt	ch3-面向对象/static.cpp	/^int A::cnt = 0;$/;"	m	class:A	file:
+main	ch3-面向对象/static.cpp	/^int main(void){$/;"	f
+Book	ch3-面向对象/this.cpp	/^class Book{$/;"	c	file:
+name	ch3-面向对象/this.cpp	/^    string name;$/;"	m	class:Book	file:
+count	ch3-面向对象/this.cpp	/^    int count;$/;"	m	class:Book	file:
+Book	ch3-面向对象/this.cpp	/^    Book(string name){$/;"	f	class:Book
+~Book	ch3-面向对象/this.cpp	/^    ~Book() {}$/;"	f	class:Book
+setName	ch3-面向对象/this.cpp	/^    bool setName(const string& name){$/;"	f	class:Book
+setCount	ch3-面向对象/this.cpp	/^    bool setCount(int _count){  \/\/����2����ʹ��thisָ�룬ʹ��������������������$/;"	f	class:Book
+getName	ch3-面向对象/this.cpp	/^    string getName() const {$/;"	f	class:Book
+getCount	ch3-面向对象/this.cpp	/^    int getCount() const {$/;"	f	class:Book
+main	ch3-面向对象/this.cpp	/^int main(void){$/;"	f
+Human	ch3-面向对象/virtual-fun.cpp	/^class Human{$/;"	c	file:
+say	ch3-面向对象/virtual-fun.cpp	/^    virtual void say(){     \/\/父类的虚函数可以在子类中被重写 (virtual)$/;"	f	class:Human
+Student	ch3-面向对象/virtual-fun.cpp	/^class Student : public Human{$/;"	c	file:
+say	ch3-面向对象/virtual-fun.cpp	/^    void say(){            \/\/重写时，参数和返回值保持一致  (无virtual)$/;"	f	class:Student
+Shape	ch3-面向对象/virtual-fun.cpp	/^class Shape{        \/\/接口(很抽象)$/;"	c	file:
+Circle	ch3-面向对象/virtual-fun.cpp	/^class Circle : public Shape{$/;"	c	file:
+radius	ch3-面向对象/virtual-fun.cpp	/^    float radius;$/;"	m	class:Circle	file:
+Circle	ch3-面向对象/virtual-fun.cpp	/^    Circle(float radius){$/;"	f	class:Circle
+getS	ch3-面向对象/virtual-fun.cpp	/^    float getS() { return 3.14 * radius * radius; }  \/\/留待子类里重写定义$/;"	f	class:Circle
+getC	ch3-面向对象/virtual-fun.cpp	/^    float getC() { return 2 * 3.14 * radius; }$/;"	f	class:Circle
+main	ch3-面向对象/virtual-fun.cpp	/^int main(void){$/;"	f
+Vehicle	ch3-面向对象专题练习/design1.cpp	/^class Vehicle {$/;"	c	file:
+wheels	ch3-面向对象专题练习/design1.cpp	/^    int wheels;$/;"	m	class:Vehicle	file:
+Vehicle	ch3-面向对象专题练习/design1.cpp	/^    Vehicle(int wheels) : wheels(wheels) { }$/;"	f	class:Vehicle
+Vehicle	ch3-面向对象专题练习/design1.cpp	/^    Vehicle(int wheels) {$/;"	f	class:Vehicle
+get_wheels	ch3-面向对象专题练习/design1.cpp	/^    int get_wheels() const { return wheels; }$/;"	f	class:Vehicle
+set_wheels	ch3-面向对象专题练习/design1.cpp	/^    void set_wheels(const int wheels) { this->wheels = wheels; }$/;"	f	class:Vehicle
+Car	ch3-面向对象专题练习/design1.cpp	/^class Car : public Vehicle {$/;"	c	file:
+passenger	ch3-面向对象专题练习/design1.cpp	/^    int passenger;$/;"	m	class:Car	file:
+Car	ch3-面向对象专题练习/design1.cpp	/^    Car(int passenger, int wheels) : Vehicle(wheels), passenger(passenger) { }$/;"	f	class:Car
+get_passenger	ch3-面向对象专题练习/design1.cpp	/^    int get_passenger() const { return passenger; }$/;"	f	class:Car
+set_passenger	ch3-面向对象专题练习/design1.cpp	/^    void set_passenger(const int passenger) { this->passenger = passenger; }$/;"	f	class:Car
+Truck	ch3-面向对象专题练习/design1.cpp	/^class Truck : public Vehicle {$/;"	c	file:
+weight	ch3-面向对象专题练习/design1.cpp	/^    float weight;$/;"	m	class:Truck	file:
+Truck	ch3-面向对象专题练习/design1.cpp	/^    Truck(float weight, int wheels) : Vehicle(wheels), weight(weight) { }$/;"	f	class:Truck
+get_weight	ch3-面向对象专题练习/design1.cpp	/^    int get_weight() const { return weight; }$/;"	f	class:Truck
+set_weight	ch3-面向对象专题练习/design1.cpp	/^    void set_weight(const float weight) { this->weight = weight; }$/;"	f	class:Truck
+main	ch3-面向对象专题练习/design1.cpp	/^int main(void){$/;"	f
+A	ch3-面向对象专题练习/design2.cpp	/^class A{$/;"	c	file:
+cntA	ch3-面向对象专题练习/design2.cpp	/^    static int cntA;$/;"	m	class:A	file:
+A	ch3-面向对象专题练习/design2.cpp	/^    A() { cntA++; }$/;"	f	class:A
+~A	ch3-面向对象专题练习/design2.cpp	/^    ~A() { cntA--; }$/;"	f	class:A
+cntA	ch3-面向对象专题练习/design2.cpp	/^int A::cntA = 0;$/;"	m	class:A	file:
+B	ch3-面向对象专题练习/design2.cpp	/^class B : public A{$/;"	c	file:
+cntB	ch3-面向对象专题练习/design2.cpp	/^    static int cntB;$/;"	m	class:B	file:
+B	ch3-面向对象专题练习/design2.cpp	/^    B() { cntB++; }$/;"	f	class:B
+~B	ch3-面向对象专题练习/design2.cpp	/^    ~B() { cntB--; }$/;"	f	class:B
+cntB	ch3-面向对象专题练习/design2.cpp	/^int B::cntB = 0;$/;"	m	class:B	file:
+C	ch3-面向对象专题练习/design2.cpp	/^class C : public B{$/;"	c	file:
+cntC	ch3-面向对象专题练习/design2.cpp	/^    static int cntC;$/;"	m	class:C	file:
+C	ch3-面向对象专题练习/design2.cpp	/^    C() { cntC++; }$/;"	f	class:C
+~C	ch3-面向对象专题练习/design2.cpp	/^    ~C() { cntC--; }$/;"	f	class:C
+cntC	ch3-面向对象专题练习/design2.cpp	/^int C::cntC = 0;$/;"	m	class:C	file:
+main	ch3-面向对象专题练习/design2.cpp	/^int main(void){$/;"	f
+Person	ch3-面向对象专题练习/design3.cpp	/^class Person {$/;"	c	file:
+weight	ch3-面向对象专题练习/design3.cpp	/^    float weight;$/;"	m	class:Person	file:
+weight0	ch3-面向对象专题练习/design3.cpp	/^    float weight0;$/;"	m	class:Person	file:
+name	ch3-面向对象专题练习/design3.cpp	/^    string name;$/;"	m	class:Person	file:
+Person	ch3-面向对象专题练习/design3.cpp	/^    Person(string name, float weight){$/;"	f	class:Person
+get_weight	ch3-面向对象专题练习/design3.cpp	/^    float get_weight() const {$/;"	f	class:Person
+eat	ch3-面向对象专题练习/design3.cpp	/^    void eat()  { weight += 1.0f; }$/;"	f	class:Person
+run	ch3-面向对象专题练习/design3.cpp	/^    void run()  { weight -= 0.5f; }$/;"	f	class:Person
+is_success	ch3-面向对象专题练习/design3.cpp	/^    bool is_success(){$/;"	f	class:Person
+main	ch3-面向对象专题练习/design3.cpp	/^int main(void){$/;"	f
+A	ch4-类动态内存分配/new-delete-array.cpp	/^class A {$/;"	c	file:
+A	ch4-类动态内存分配/new-delete-array.cpp	/^    A() { cout << "A constructed" << endl; }$/;"	f	class:A
+func	ch4-类动态内存分配/new-delete-array.cpp	/^    void func() { cout << "func called" << endl; }$/;"	f	class:A
+~A	ch4-类动态内存分配/new-delete-array.cpp	/^    ~A() { cout << "A destructed" << endl; } $/;"	f	class:A
+main	ch4-类动态内存分配/new-delete-array.cpp	/^int main(void) {$/;"	f
+A	ch4-类动态内存分配/new-delete.cpp	/^class A {$/;"	c	file:
+n	ch4-类动态内存分配/new-delete.cpp	/^    int n;$/;"	m	class:A	file:
+A	ch4-类动态内存分配/new-delete.cpp	/^    A() { cout << "Ctor1" << endl; }$/;"	f	class:A
+A	ch4-类动态内存分配/new-delete.cpp	/^    A(int n) : n(n) { cout << "Ctor2" << endl; } $/;"	f	class:A
+func	ch4-类动态内存分配/new-delete.cpp	/^    void func() { cout << "func called" << endl; }$/;"	f	class:A
+~A	ch4-类动态内存分配/new-delete.cpp	/^    ~A() { cout << "Dtor" << endl; }$/;"	f	class:A
+main	ch4-类动态内存分配/new-delete.cpp	/^int main(void){$/;"	f
+A	ch4-类动态内存分配/virtual-dtor.cpp	/^class A {$/;"	c	file:
+pA	ch4-类动态内存分配/virtual-dtor.cpp	/^    char* pA;$/;"	m	class:A	file:
+A	ch4-类动态内存分配/virtual-dtor.cpp	/^    A() { pA = new char[100]; }$/;"	f	class:A
+func	ch4-类动态内存分配/virtual-dtor.cpp	/^    virtual void func() { cout << "func in A\\n"; }$/;"	f	class:A
+~A	ch4-类动态内存分配/virtual-dtor.cpp	/^    virtual ~A() { delete[] pA; }   \/\/虚析构函数 - (解决内存泄漏)$/;"	f	class:A
+B	ch4-类动态内存分配/virtual-dtor.cpp	/^class B : public A {$/;"	c	file:
+pB	ch4-类动态内存分配/virtual-dtor.cpp	/^    char* pB;$/;"	m	class:B	file:
+B	ch4-类动态内存分配/virtual-dtor.cpp	/^    B() { pB = new char[100]; }$/;"	f	class:B
+func	ch4-类动态内存分配/virtual-dtor.cpp	/^    void func() { cout << "func in B\\n"; }$/;"	f	class:B
+~B	ch4-类动态内存分配/virtual-dtor.cpp	/^    ~B() { delete[] pB; }$/;"	f	class:B
+main	ch4-类动态内存分配/virtual-dtor.cpp	/^int main(void){$/;"	f
+TriangleException	ch5-异常处理/exception.cpp	/^class TriangleException : public exception {$/;"	c	file:
+a	ch5-异常处理/exception.cpp	/^    float a;$/;"	m	class:TriangleException	file:
+b	ch5-异常处理/exception.cpp	/^    float b;$/;"	m	class:TriangleException	file:
+c	ch5-异常处理/exception.cpp	/^    float c;$/;"	m	class:TriangleException	file:
+TriangleException	ch5-异常处理/exception.cpp	/^    TriangleException(float a, float b, float c) : a(a), b(b), c(c) {}$/;"	f	class:TriangleException
+get_triangle_area	ch5-异常处理/exception.cpp	/^float get_triangle_area(float a, float b, float c) throw(TriangleException) {$/;"	f
+main	ch5-异常处理/exception.cpp	/^int main(void){$/;"	f
+Myexception	ch5-异常处理/self-exception.cpp	/^class Myexception : public exception {$/;"	c	file:
+content	ch5-异常处理/self-exception.cpp	/^    string content;$/;"	m	class:Myexception	file:
+Myexception	ch5-异常处理/self-exception.cpp	/^    Myexception(string content) : content(content) {}$/;"	f	class:Myexception
+main	ch5-异常处理/self-exception.cpp	/^int main(void){$/;"	f
+main	ch5-异常处理/try-throw-catch.cpp	/^int main(void){$/;"	f
+myAdd	ch6-模板/overload.cpp	/^string myAdd(int a, int b) { $/;"	f
+myAdd	ch6-模板/overload.cpp	/^string myAdd(float a, float b) {    \/\/函数重载1$/;"	f
+myAdd	ch6-模板/overload.cpp	/^string myAdd(double a, double b) {  \/\/函数重载2$/;"	f
+main	ch6-模板/overload.cpp	/^int main(void) {$/;"	f
+MyArray	ch6-模板/template-class.cpp	/^class MyArray {$/;"	c	file:
+data	ch6-模板/template-class.cpp	/^    T data[100];$/;"	m	class:MyArray	file:
+MyArray	ch6-模板/template-class.cpp	/^    MyArray() {}$/;"	f	class:MyArray
+getEle	ch6-模板/template-class.cpp	/^    T getEle(int index) { return data[index]; }$/;"	f	class:MyArray
+setEle	ch6-模板/template-class.cpp	/^    void setEle(int index, T ele){$/;"	f	class:MyArray
+main	ch6-模板/template-class.cpp	/^int main(void){$/;"	f
+myAdd	ch6-模板/template-fun.cpp	/^string myAdd(T1 a, T2 b){$/;"	f
+main	ch6-模板/template-fun.cpp	/^int main(void) {$/;"	f
+MyArray	ch6-模板/template-param.cpp	/^class MyArray {$/;"	c	file:
+data	ch6-模板/template-param.cpp	/^    T data[size];$/;"	m	class:MyArray	file:
+MyArray	ch6-模板/template-param.cpp	/^    MyArray() {}$/;"	f	class:MyArray
+getEle	ch6-模板/template-param.cpp	/^    T getEle(int index) { $/;"	f	class:MyArray
+setEle	ch6-模板/template-param.cpp	/^    void setEle(int index, T ele) { $/;"	f	class:MyArray
+main	ch6-模板/template-param.cpp	/^int main(void){$/;"	f
+myAdd	ch6-模板/template.cpp	/^string myAdd(T1 a, T2 b){$/;"	f
+main	ch6-模板/template.cpp	/^int main(void) {$/;"	f
+main	ch7-文件读写流/binary-file.cpp	/^int main(void) {$/;"	f
+main	ch7-文件读写流/fstream.cpp	/^int main(void) {$/;"	f
+main	ch7-文件读写流/output-contrl.cpp	/^int main(void) {$/;"	f
+main	ch7-文件读写流/stream.cpp	/^int main(void) {$/;"	f
